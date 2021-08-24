@@ -21,3 +21,7 @@ class MyString {
         return str1
     }
 }
+const str = new MyString();
+console.log(str.reverse('IVAN'));
+console.log(str.ucFirst('arsenal'));
+console.log(str.ucWords('arsenal arsenal arsenal'));
